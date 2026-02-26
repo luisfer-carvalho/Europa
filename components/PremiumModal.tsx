@@ -53,9 +53,9 @@ const PremiumModal: React.FC<PremiumModalProps> = ({ isOpen, onClose }) => {
         <div className="flex-1 overflow-y-auto p-6 md:p-8 custom-scrollbar">
              {/* Price */}
              <div className="mb-6 flex flex-col items-center border-b border-slate-100 pb-6">
-                <span className="text-sm font-medium text-slate-400 line-through mb-1">Precio Normal: 79,90 €</span>
+                <span className="text-sm font-medium text-slate-400 line-through mb-1">Precio Normal: 39,95 €</span>
                 <div className="flex items-center gap-2">
-                    <span className="text-5xl font-extrabold text-slate-900 tracking-tight">23,90 €</span>
+                    <span className="text-5xl font-extrabold text-slate-900 tracking-tight">11,95 €</span>
                 </div>
                 <span className="text-sm font-bold text-slate-600 mb-2">EUROS 🇪🇸</span>
                 <span className="mt-1 rounded-full bg-green-100 px-3 py-1 text-xs font-bold text-green-700 animate-pulse">
@@ -107,7 +107,7 @@ const PremiumModal: React.FC<PremiumModalProps> = ({ isOpen, onClose }) => {
                 href="https://pay.hotmart.com/F103992260Y?off=ea4kn0mk&checkoutMode=10"
                 className="group relative flex w-full items-center justify-center overflow-hidden rounded-xl bg-action-500 px-6 py-4 font-bold text-white shadow-lg transition-all hover:bg-action-600 hover:shadow-xl hover:scale-[1.02] active:scale-95"
             >
-                <span className="mr-2">ACCEDER POR 23,90 €</span>
+                <span className="mr-2">ACCEDER POR 11,95 €</span>
                 <ArrowRight className="h-5 w-5 transition-transform group-hover:translate-x-1" />
             </a>
             <div className="mt-3 flex justify-center items-center gap-2 text-xs text-slate-400 font-medium">

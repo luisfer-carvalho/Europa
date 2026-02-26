@@ -14,8 +14,8 @@ const Pricing: React.FC = () => {
                 <h3 className="text-xl font-bold text-slate-500 uppercase tracking-wide">Acceso Básico</h3>
                 <div className="mt-4 flex flex-col">
                     <div className="flex items-baseline">
-                        <span className="text-4xl font-extrabold tracking-tight text-slate-900">19,90 €</span>
-                        <span className="ml-2 text-base font-medium text-slate-500 line-through">59,90 €</span>
+                        <span className="text-4xl font-extrabold tracking-tight text-slate-900">9,95 €</span>
+                        <span className="ml-2 text-base font-medium text-slate-500 line-through">29,95 €</span>
                     </div>
                     <p className="mt-1 text-sm font-semibold text-slate-500">EUR (Euros) 🇪🇸</p>
                     <p className="text-xs text-slate-400">Pago único</p>
@@ -48,7 +48,7 @@ const Pricing: React.FC = () => {
                   href="https://pay.hotmart.com/M103664752V?checkoutMode=10"
                   className="mt-8 block w-full text-center rounded-xl border-2 border-slate-200 bg-transparent py-3 px-4 font-bold text-slate-700 hover:bg-slate-50 transition-colors"
                 >
-                    Acceder por 19,90 €
+                    Acceder por 9,95 €
                 </a>
             </div>
 
@@ -71,8 +71,8 @@ const Pricing: React.FC = () => {
 
                 <div className="mt-4 flex flex-col">
                     <div className="flex items-baseline">
-                        <span className="text-5xl font-extrabold tracking-tight text-slate-900">23,90 €</span>
-                        <span className="ml-2 text-lg font-medium text-slate-500 line-through">79,90 €</span>
+                        <span className="text-5xl font-extrabold tracking-tight text-slate-900">11,95 €</span>
+                        <span className="ml-2 text-lg font-medium text-slate-500 line-through">39,95 €</span>
                     </div>
                     <p className="mt-1 text-sm font-bold text-slate-600">EUR (Euros) 🇪🇸</p>
                     <p className="text-xs text-slate-500">Pago único · Ahorras 70%</p>
@@ -103,7 +103,7 @@ const Pricing: React.FC = () => {
                   href="https://pay.hotmart.com/F103992260Y?off=ea4kn0mk&checkoutMode=10"
                   className="mt-8 block w-full text-center rounded-xl bg-action-500 py-4 px-4 font-bold text-white shadow-lg hover:bg-action-600 transition-all animate-pulse-action cursor-pointer text-lg"
                 >
-                    ACCEDER POR 23,90 €
+                    ACCEDER POR 11,95 €
                 </a>
                 <p className="text-center mt-3 text-xs text-slate-400">Precio final en Euros 🇪🇸</p>
             </div>
